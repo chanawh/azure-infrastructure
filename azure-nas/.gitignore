@@ -1,0 +1,62 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform variable files with secrets
+# Note: The terraform.tfvars files in this repo are safe to commit
+# (they contain only non-sensitive values like resource group names)
+# If you add sensitive values to tfvars, uncomment the line below:
+# *.tfvars
+!*.tfvars.example
+
+# Terraform working directory
+.terraform/
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+*.ppk
+
+# Local environment files
+.env
+.env.*
+*.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.backup
+*.bak
+
+# Local Terraform variable files
+*.tfvars
+!*.tfvars.example

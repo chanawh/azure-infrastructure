@@ -1,0 +1,14 @@
+subscription_id = "YOUR-SUBSCRIPTION-ID"
+
+hub_resource_group_name = "rg-nasrehearsal-lab-hub"
+hub_vnet_name           = "vnet-nasrehearsal-lab-hub"
+hub_test_vm_name         = "vm-nasrehearsal-lab-hub-test"
+
+migration_resource_group_name = "rg-nasrehearsal-lab-migration"
+
+location    = "eastus"
+prefix      = "nasrehearsal"
+environment = "lab"
+
+admin_username = "azureadmin"
+vm_size        = "Standard_B1s"
